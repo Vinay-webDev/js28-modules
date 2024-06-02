@@ -23,10 +23,14 @@ console.log(horr()); */
 ////////////////////////////////////
 // another way to import** (import * as )
 import * as Games from './playing.js';
-
-console.log(Games.default());
+import User from './user.js';
+// we'll create a instance of class User
+const me = new User("jackbul@123", "jack");
+console.log(me);
+console.log(me.greetUser());
+/*console.log(Games.default());
 console.log(Games.shooting());
-console.log(Games.horror());
+console.log(Games.horror());*/
 // we have a problem and that's because of the default function ****
 
 
