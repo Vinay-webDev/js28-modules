@@ -10,13 +10,16 @@ console.log(fighting());
 console.log(shooting());
 console.log(horror());*/
 //////////////////////////
+// to change the name of these functions
 import fighting from './playing.js';
-import { shooting, horror} from './playing.js';
+import { shooting as shoot, horror as horr} from './playing.js';
 
-console.log(fighting());
+/*console.log(fighting());
 console.log(shooting());
-console.log(horror());
-
+console.log(horror()); */
+console.log(fighting());
+console.log(shoot());
+console.log(horr());
 
 
 

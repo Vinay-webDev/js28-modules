@@ -20,7 +20,7 @@ export { shooting, horror}; */
 export default function fighting () {
     return "playing fighting game!";
 }
-///or 
+
 export const shooting = () => {
     return "playing shooting game!";
 }
@@ -28,7 +28,7 @@ export const shooting = () => {
 export const horror = () => {
     return "playing horror game!";
 }
-////////////////////////////////////
+///// or //////////////////////////////////
 /*export function shooting () {
     return "playing shooting game!";
 }
