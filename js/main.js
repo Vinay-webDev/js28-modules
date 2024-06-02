@@ -10,19 +10,24 @@ console.log(fighting());
 console.log(shooting());
 console.log(horror());*/
 //////////////////////////
-// to change the name of these functions
-import fighting from './playing.js';
+// to change the name of these functions ( as )
+/*import fighting from './playing.js';
 import { shooting as shoot, horror as horr} from './playing.js';
 
-/*console.log(fighting());
+console.log(fighting());
 console.log(shooting());
-console.log(horror()); */
+console.log(horror()); 
 console.log(fighting());
 console.log(shoot());
-console.log(horr());
+console.log(horr()); */
+////////////////////////////////////
+// another way to import** (import * as )
+import * as Games from './playing.js';
 
-
-
+console.log(Games.default());
+console.log(Games.shooting());
+console.log(Games.horror());
+// we have a problem and that's because of the default function ****
 
 
 
